@@ -1,6 +1,6 @@
 <template>
     <div class="app">
-        <!-- <Button>Default</Button> -->
+        <Button>Default</Button>
         <p v-if="show" @click="clsoe" class="text">
             {{ installed ? "在客户端应该安装成功，点击我关闭!" : "未安装" }}
         </p>

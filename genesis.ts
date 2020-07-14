@@ -9,7 +9,11 @@ export const app = express();
 /**
  * 创建一个 SSR 实例
  */
-export const ssr = new SSR();
+export const ssr = new SSR({
+    build: {
+        transpile: [/view-design/]
+    }
+});
 
 /**
  * 拿到渲染器后，启动应用程序

@@ -44,13 +44,16 @@
     "devDependencies": {
         "@fmfe/genesis-compiler": "^0.0.66-alpha.0",
         "@fmfe/genesis-lint": "0.0.60-alpha.2",
+        "babel-plugin-import": "^1.13.0",
         "postcss-px-to-viewport": "^1.1.1"
     },
     "dependencies": {
         "@fmfe/genesis-core": "^0.0.66-alpha.0",
         "@types/express": "^4.17.3",
         "@types/node": "^13.7.6",
+        "autoprefixer": "^9.8.5",
         "express": "^4.17.1",
+        "tailwindcss": "^1.4.6",
         "ts-node": "^8.6.2",
         "typescript": "^3.8.2",
         "view-design": "^4.3.2"

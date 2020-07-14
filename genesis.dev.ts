@@ -1,5 +1,13 @@
 import { Watch } from '@fmfe/genesis-compiler';
 import { ssr, app, startApp } from './genesis';
+import { PostcssOptions, Plugin } from '@fmfe/genesis-core';
+
+export class PostcssPlugin extends Plugin {
+    public postcss(config: PostcssOptions) {
+        config.plugins.push([require('tailwindcss'), require('autoprefixer')]);
+    }
+}
+ssr.plugin.use(PostcssPlugin);
 
 const start = async () => {
     /**
