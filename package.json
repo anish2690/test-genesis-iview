@@ -52,7 +52,7 @@
         "@types/express": "^4.17.3",
         "@types/node": "^13.7.6",
         "autoprefixer": "^9.8.5",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "tailwindcss": "^1.4.6",
         "ts-node": "^8.6.2",
         "typescript": "^3.8.2",
